@@ -1,0 +1,7 @@
+*.db
+*.bz2
+*.gz
+*.xml
+*.box
+packer_cache/
+*.bak
