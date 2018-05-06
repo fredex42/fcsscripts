@@ -6,7 +6,7 @@
 # backwards compatibility). Please don't change it unless you know what
 # you're doing.
 Vagrant.configure("2") do |config|
-  config.vm.box = "postgres_installed_32bit.box"
+  config.vm.box = "gcc_postgres_fullautomated_v1.box"
 
   config.vm.network "forwarded_port", guest: 5432, host: 5432
 
